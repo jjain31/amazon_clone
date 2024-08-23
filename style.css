@@ -229,3 +229,71 @@ ul a{
     text-align: center;
     padding-bottom: 5px;
 }
+@media (max-width: 1200px) {
+    .navbar, .panel {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .box {
+        width: 48%;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-logo {
+        width: 80px;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .box {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        height: 200px;
+        background-size: contain;
+    }
+
+    .hero-msg {
+        font-size: 0.75rem;
+        margin-top: 150px;
+    }
+
+    .box {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .box-img {
+        height: 200px;
+    }
+
+    .footer ul {
+        width: 100%;
+        padding: 0;
+    }
+
+    .foot-panel2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .foot-panel1, .foot-panel3, .foot-panel4 {
+        font-size: 0.75rem;
+    }
+}
